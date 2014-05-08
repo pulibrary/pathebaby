@@ -32,14 +32,21 @@ print '</pre>';
 <!--   VIDEO PLAYER  -->
 
    <div id="player">
-   
-   <script src="https://cdnapisec.kaltura.com/p/1536481/sp/153648100/embedIframeJs/uiconf_id/16287731/partner_id/1536481"></script>
-<div id="kaltura_player_1398870931" style="width: 620px; height: 480px;"></div>
+
+<script src="http://cdnapi.kaltura.com/p/1536481/sp/153648100/embedIframeJs/uiconf_id/16287801/partner_id/1536481"></script>
+<div id="kaltura_player_1399495109" style="width: 620px; height: 480px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+<span itemprop="name" content="Pathe-0857"></span>
+<span itemprop="description" content=""></span>
+<span itemprop="duration" content="105"></span>
+<span itemprop="thumbnail" content="http://cdnsecakmi.kaltura.com/p/1536481/sp/153648100/thumbnail/entry_id/1_khrkiw95/version/100000/acv/101"></span>
+<span itemprop="width" content="620"></span>
+<span itemprop="height" content="480"></span>
+</div>
 <script>
 kWidget.embed({
-  "targetId": "kaltura_player_1398870931",
+  "targetId": "kaltura_player_1399495109",
   "wid": "_1536481",
-  "uiconf_id": 16287731,
+  "uiconf_id": 16287801,
   "flashvars": {
     "streamerType": "rtmp",
     "mediaProtocol": "rtmp"
@@ -48,6 +55,7 @@ kWidget.embed({
   "entry_id": "<?php echo $kalturaID; ?>"
 });
 </script>
+
 
     </div>
 
@@ -59,21 +67,21 @@ kWidget.embed({
      <?php
         print render($content);
      ?>
-<div id="nextprev-nav">
+<ul id="nextprev-nav">
   <?php 
   
     $test_node = node_load(array('nid' => $prevID));
     $test_node_exists = ($test_node != false);
     $test_type = $test_node->type;
-    if($test_type) { echo '<a id="prev-link" href="'.$prevID.'">Previous</a>'; }
+    if($test_type) { echo '<li><a id="prev-link" href="'.$prevID.'">Previous</a></li>'; }
   
   	$test_node = node_load(array('nid' => $nextID));
     $test_node_exists = ($test_node != false);
     $test_type = $test_node->type;
-    if($test_type) { echo '<a id="next-link" href="'.$nextID.'">Next</a>'; }
+    if($test_type) { echo '<li><a id="next-link" href="'.$nextID.'">Next</a></li>'; }
 	
   ?>
-</div>
+</ul>
   </div>
 
    <?php } //end if not teaser mode ?>

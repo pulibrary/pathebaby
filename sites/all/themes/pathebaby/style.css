@@ -1,6 +1,36 @@
 
 /*  CUSTOM */
 
+#nextprev-nav {
+    margin: 0;
+    padding: 0;
+    margin: 40px 0 0;
+}
+
+#nextprev-nav li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+#nextprev-nav li a {
+    color: #242021;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.kaltura_thumbnail {
+   float:right:
+    margin-right:15px;
+}
+
 .col-1 {
     width:450px;
 }
