@@ -33,12 +33,15 @@ print '</pre>';
 
    <div id="player">
 
+<!-- 
 <script src="http://cdnapi.kaltura.com/p/1536481/sp/153648100/embedIframeJs/uiconf_id/16287801/partner_id/1536481"></script>
+-->
+<script src="https://cdnapisec.kaltura.com/p/1536481/sp/153648100/embedIframeJs/uiconf_id/16287781/partner_id/1536481"></script>
 <div id="kaltura_player_1399495109" style="width: 620px; height: 480px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 <span itemprop="name" content="Pathe-0857"></span>
 <span itemprop="description" content=""></span>
 <span itemprop="duration" content="105"></span>
-<span itemprop="thumbnail" content="http://cdnsecakmi.kaltura.com/p/1536481/sp/153648100/thumbnail/entry_id/1_khrkiw95/version/100000/acv/101"></span>
+<span itemprop="thumbnail" content="https://cdnsecakmi.kaltura.com/p/1536481/sp/153648100/thumbnail/entry_id/1_khrkiw95/version/100000/acv/101"></span>
 <span itemprop="width" content="620"></span>
 <span itemprop="height" content="480"></span>
 </div>
