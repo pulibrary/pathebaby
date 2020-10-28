@@ -1,0 +1,4 @@
+name: pathe-baby
+recipe: drupal7
+config:
+  webroot: .
